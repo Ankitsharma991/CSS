@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: center;
+    align-items: center; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.box {
+    border: 2px solid rgb(243, 11, 30);
+    background-color: rgb(189, 189, 15);
+    padding: 34px;
+}

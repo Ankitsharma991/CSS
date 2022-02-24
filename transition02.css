@@ -1,0 +1,23 @@
+    #box {
+        display: flex;
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        transition-property: background-color;
+        /* transition-duration: 4s; */
+        transition-timing-function: ease-in-out;
+        /* transition-delay: 0.2s; */
+        /* transition: background-color 1s ease-in-out 0.3s; */
+    }
+    
+    body {
+        background-color: tomato;
+    }
+    
+    #box:hover {
+        background-color: cyan;
+        height: 400px;
+        width: 500px;
+    }

@@ -1,0 +1,25 @@
+:root {
+    /* --box-color: rgb(164, 60, 224); */
+    --primary-color: yellow;
+    --danger-color: red;
+    --mxw: 50vw;
+}
+
+.box {
+    /* --box-color: green; */
+    width: 200px;
+    height: 200px;
+    background-color: var(--primary-color);
+    margin: 2px 9px;
+    border: 2px solid var(--danger-color);
+    box-shadow: 3px 3px var(--box-color);
+}
+
+.container {
+    /* --box-color: rgb(224, 222, 64); */
+    /* max-width: var(--mxw); */
+    display: flex;
+    background-color: var(--danger-color);
+    align-items: center;
+    justify-content: center;
+}

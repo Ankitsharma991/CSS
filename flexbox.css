@@ -1,0 +1,71 @@
+.h1 {}
+
+.container {
+    /* align-items: center; */
+    height: 344px;
+    width: 100%;
+    border: 3px solid black;
+    /* intialize the containeras a flex box */
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly;*/
+    /* justify-content: space-around; */
+    /* overflow: scroll; */
+    /* flex-properties for container */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /*Default value for flex direction is row*/
+    flex-wrap: wrap;
+    /*flex-flow: row-reverse wrap;
+        */
+    /* flex-direction: column; */
+    align-items: center;
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: stretch;
+}
+
+.items {
+    background-color: tomato;
+    border: 2px solid rgb(209, 14, 248);
+    margin: 10px;
+    padding: 3px;
+    width: 200px;
+    height: 50px;
+}
+
+#item-1 {
+    order: 4;
+    flex-grow: 1;
+}
+
+#item-2 {
+    /* order: 14; */
+    flex-grow: 2;
+    /* higher the value of grow greater will be expand */
+}
+
+#item-3 {
+    flex-shrink: 2;
+    /* higher the value for shrink greater will be compression */
+    /* order: 12; */
+}
+
+#item-4 {
+    /* order: 5; */
+    align-self: flex-end;
+}
+
+#item-5 {
+    /* order: 9; */
+    flex-basis: 200px;
+    /* when flex direction is seted as row then flex basis will control the width */
+    /* when flex direction is seted as column then flex basis will control the height */
+}
+
+#item-6 {
+    /* order: 4; */
+}

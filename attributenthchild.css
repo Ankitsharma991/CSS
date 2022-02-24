@@ -1,0 +1,46 @@
+    .container {
+        margin: auto;
+        display: block;
+        width: 233px;
+    }
+    
+    input {
+        display: block;
+    }
+    
+    input[type='text'] {
+        padding: 23px;
+        border: 2px solid red;
+    }
+    
+    a[target] {
+        font-size: 44px;
+        color: rgb(7, 250, 39);
+    }
+    
+    a[target='_self'] {
+        font-size: 44px;
+        color: tomato;
+    }
+    
+    li:nth-child(3) {
+        color: cyan;
+    }
+    
+    li:nth-child(2n+1) {
+        color: rgb(13, 32, 202);
+        font-style: italic;
+    }
+    
+    li:nth-child(even) {
+        color: rgb(241, 53, 6);
+        font-style: bold;
+    }
+    /* h1 a {
+        text-decoration: none;
+        color: violet;
+        border: 5px solid green;
+        background-color: red;
+        font-size: auto;
+        border-radius: 50%;
+    } */

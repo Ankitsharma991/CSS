@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+}
+
+.card {
+    padding: 23px 12px;
+    margin: 23px 12px;
+    border: 2px solid rgb(177, 75, 75);
+    background-color: rgb(247, 185, 15);
+    /* box-shadow: offset-x offset-y blur-radiator spread-radius color; */
+    /* box-shadow: -10px -12px 10px 50px rgb(253, 228, 2); */
+    /* color: rgba(red, green, blue, 0.5) */
+    /* rgba(red-value, green-value, blue-value, aplha value which determines the darkness of the color*/
+    /* box-shadow: inset 13px 15px green; */
+    /*inset increases the shadow inside*/
+    box-shadow: 13px 15px rgb(240, 84, 206), 23px 25px rgb(93, 243, 93);
+    opacity: 0.99;
+}
+
+.card h2 {
+    color: red;
+    text-shadow: -4px -6px rgb(245, 139, 139);
+}

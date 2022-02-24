@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+        
+        .container {
+            background-color: black;
+            height: 455px;
+        }
+        
+        .box {
+            border: 5px brown solid;
+            display: inline-block;
+            /*transform: translate(134px, 56px) rotateX(45deg);
+            transform-origin: 0;*/
+            width: 200px;
+            height: 200px;
+        }
+        
+        img {
+            border-left: 3px orange solid;
+            border-top: 3px red solid;
+            border-right: 3px yellow solid;
+            border-bottom: 3px green solid;
+            border-radius: 10px;
+            width: 100px;
+            height: 100px;
+            transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img id="myImage" src=" /home/ankit/Desktop/pp "></div>
+        <button id="btn ">toggle</button>
+    </div>
+</body>
+<script>
+    btn.addEventListener("click ", () => {
+        myImage.style.width = "546px ";
+    })
+</script>
+
+</html>

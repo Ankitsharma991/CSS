@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container {
+            height: 100vh;
+            width: 100vw;
+            background-color: aqua;
+        }
+        
+        .box {
+            width: 300px;
+            height: 300px;
+            background-color: brown;
+            color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name: widthAnimate;
+            animation-timing-function: ease-in-out;
+            Animation-delay: 1s;
+            Animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            /*This is short-cut use of animation property*/
+            /*animation: withAnimate 3s ease-in-out 0.5s 4 alternate;
+            */
+        }
+        
+        img {
+            height: 30vh;
+            animation-name: widthAnimate;
+            animation-timing-function: ease-in-out;
+            Animation-delay: 1s;
+            Animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        
+        @keyframes widthAnimate {
+            from {
+                width: 30vw;
+                height: 30vh;
+            }
+            to {
+                width: 100vw;
+                height: 100vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="clock.png" alt="width:344px">
+        </div>
+    </div>
+</body>
+
+</html>

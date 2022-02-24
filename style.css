@@ -1,0 +1,16 @@
+.red {
+    background-color: darkgoldenrod;
+    height: 100px;
+    color: rgba(121, 20, 56, 0.656);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.green {
+    background-color: #533f53;
+    height: 100px;
+    color: hsl(10%, 25%, 12%);
+}

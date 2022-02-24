@@ -1,0 +1,35 @@
+/* z-index work only for positioned elements not for static positioned elements */
+
+.box {
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
+}
+
+#box1 {
+    background-color: red;
+    /* display: none; */
+    /*make element invisible and the place is not reserved */
+    position: relative;
+    top: 49px;
+    z-index: 35;
+}
+
+#box2 {
+    background-color: yellow;
+    /* visibility: visible; */
+    position: relative;
+    top: 14px;
+    /* z-index: -1; */
+    /* visibility: not visible; */
+}
+
+#box3 {
+    background-color: green;
+    /* visibility: hidden; */
+    /*make element invisible bt the place is reserved*/
+}
+
+#box4 {
+    background-color: blue;
+}

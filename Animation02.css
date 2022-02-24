@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    background-color: cyan;
+}
+
+.box2 {
+    background-color: rgb(241, 133, 8);
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: Ankit2;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 12;
+    animation-fill-mode: forwards;
+    /* animation-delay: 2s; */
+    animation-direction: reverse;
+    animation-play-state: running;
+}
+
+.box {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: Ankit;
+    animation-duration: 5s;
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 10;
+    animation-fill-mode: forwards;
+    /* animation-delay: 2s; */
+    animation-direction: reverse;
+}
+
+@keyframes Ankit2 {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 250px;
+        left: 0px;
+    }
+    75% {
+        top: 250px;
+        left: 250px;
+    }
+    100% {
+        top: 0px;
+        left: 250px;
+    }
+}
+
+@keyframes Ankit {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 1400px;
+    }
+}

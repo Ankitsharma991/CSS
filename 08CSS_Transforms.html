@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: red;
+            height: 855px;
+        }
+        
+        .box {
+            border: 2px black solid;
+            height: 100px;
+            width: 100px;
+            transform: translate(134px, 56opx) rotate(45deg);
+            transform-origin: 0;
+            /*transform: translate(134px, 56px) rotate(-180deg) scale(2, 2.5);
+            transform: scaleX(8);
+            transform: scaleY(2);
+            transform: skew(4deg, 6deg);
+            transform: matrix(1, 2, 3, 4, 5, 6);
+            transform: rotateX(45deg);*/
+            /*transform: skew(10deg, 10deg);*/
+            display: inline-block;
+            /**********transition property*******************************/
+        }
+        /*img :hover {
+            width: 56px;
+        }*/
+        
+        img {
+            width: 56vh;
+            transition-property: width;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <img src="/home/ankit/Desktop/pp"> </div>
+    </div>
+</body>
+
+</html>

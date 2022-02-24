@@ -1,0 +1,140 @@
+        @import url('http://fonts.googleapis.com/css?family=lato:wght@300&display=swap');
+         :root {
+            --main-bg-color: #2874f0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            width: 125px;
+            height: 55px;
+            border-top: red;
+        }
+        
+        nav {
+            display: flex
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo img {
+            width: 88px;
+            padding: 0 25px;
+        }
+        
+        header {
+            height: 58px;
+            background-color: var(--main-bg-color);
+            /*border: 3px solid red;
+            border-radius: 25px;*/
+            font-family: 'Lato', sans-serif;
+        }
+        
+        nav ul li {
+            list-style: none;
+            padding: 0 5vw;
+        }
+        
+        nav ul li a {
+            color: red;
+            text-decoration: none;
+        }
+        
+        nav ul li a:hover {
+            color: violet;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            height: 58px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .search {
+            display: flex;
+            align-items: center;
+        }
+        
+        .btn {
+            padding: 5px 10px;
+            color: rgb(252, 212, 212);
+            background: var(--main-bg-color);
+            border: 3px solid rgb(176, 241, 176);
+            border-radius: 7px;
+            cursor: pointer;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        .search button {
+            font-family: 'Lato', sans-serif;
+            font-weight: 900;
+        }
+        
+        .btn:hover {}
+        
+        .search input {
+            width: 20vw;
+            height: 3vh;
+            border-radius: 5px;
+            margin: 0 15px 0 56px;
+            padding: 0 12px;
+        }
+        
+        .slider {
+            margin: auto;
+            width: 40vw;
+        }
+        
+        .container {
+            min-height: calc(100vh - 58px - 12vh);
+        }
+        
+        .festival {
+            display: inline-flex;
+            justify-content: center;
+            flex-direction: row;
+            padding: 10px;
+        }
+        
+        .my-2 {
+            margin: 0.03px 0;
+            display: inline-flex;
+            flex-direction: column;
+        }
+        
+        .line {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        .card {
+            margin: 26px;
+            max-width: 100vw;
+            ;
+        }
+        
+        .card h2 {
+            font-family: 'Lato', sans-serif;
+        }
+        
+        p {
+            font-family: 'Lato', sans-serif;
+        }
+        
+        footer {
+            height: 12vh;
+            background-color: var(--main-bg-color);
+            color: white;
+            /*border: 5px solid brown;
+        border-radius: 25px;*/
+            font-family: 'Lato', sans-serif;
+        }

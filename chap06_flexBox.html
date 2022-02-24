@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        * {
+            background-color: #533254;
+        }
+        
+        .container {
+            /*height: 534px;
+            width: 1345px;*/
+            height: 50vh;
+            /*align-items: center;*/
+            /* align-content: center;*/
+            display: flex;
+            border: 3px solid rgb(134, 64, 64);
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .box1 {
+            height: 234px;
+            width: 345px;
+            background-color: red;
+            border: 3px solid rgb(8, 115, 141);
+            /*margin: 50px;
+            padding: 5px;*/
+            order: 4;
+            align-self: flex-end;
+            flex-grow: 3;
+        }
+        
+        .box2 {
+            height: 234px;
+            width: 345px;
+            background-color: rgb(13, 17, 247);
+            border: 3px solid black;
+            /*margin: 50px;
+            padding: 15px;
+            */
+            flex-grow: 2;
+        }
+        
+        .box3 {
+            height: 234px;
+            width: 345px;
+            color: aliceblue;
+            background-color: rgb(14, 9, 9);
+            border: 3px solid rgb(102, 33, 33);
+            /* margin: 50px;
+            padding: 25px;*/
+        }
+        
+        .box4 {
+            height: 234px;
+            width: 345px;
+            background-color: rgba(131, 62, 16, 0.808);
+            border: 3px solid rgb(18, 97, 22);
+            /*margin: 50px;
+            padding: 35px;*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">Box1</div>
+        <div class="box2">Box2</div>
+        <div class="box3">Box3</div>
+        <div class="box4">Box4</div>
+    </div>
+</body>
+
+</html>
